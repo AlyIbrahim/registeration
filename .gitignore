@@ -9,3 +9,4 @@ target/
 .mvn
 .project
 .settings
+node_modules/

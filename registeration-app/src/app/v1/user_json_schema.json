@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://aliction.com/product.schema.json",
+    "title": "User",
+    "description": "A User object received from registeration",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "The unique identifier for a user",
+        "type": "integer"
+      },
+      "firstname": {
+        "description": "User's First Name",
+        "type": "string"
+      },
+      "lastname": {
+        "description": "User's First Name",
+        "type": "string"
+      },
+      "title": {
+        "description": "User's First Name",
+        "type": "string"
+      }
+    }
+}

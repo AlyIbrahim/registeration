@@ -1,0 +1,10 @@
+{
+    "/api/*": {
+        "target": "http://loader-demo.apps.cluster-28ff.28ff.example.opentlc.com/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {"^/api" : ""}
+    }
+
+}

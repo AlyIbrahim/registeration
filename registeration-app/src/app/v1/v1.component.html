@@ -1,0 +1,36 @@
+<div>
+    <!-- First Name: <input type="text" name="{{firstName}}"><br> -->
+    <!-- Last Name: <input type="text" name="{{lastName}}"><br> -->
+    <!-- Title: <input type="text" name="{{title}}"><br> -->
+    <!-- <button type="button" class="btn" (click)="navigateToFirst()">First</button> -->
+    <!-- <button type="button" class="btn" (click)="navigateToSecond()">Second</button> -->
+
+<form [formGroup]="registerationForm" (ngSubmit)="onSubmit(registerationForm.value)">
+    <div class="row">
+        <label for="firstname"> First Name </label>
+        <input id="fname" type="text" formControlName="firstname">
+    </div>
+    <br>
+    <div>
+        <label for="lastname"> Last Name </label>
+        <input id="lname" type="text" formControlName="lastname">
+    </div>
+    <br>
+    <div>
+        <label for="title"> Title </label>
+        <input id="title" type="text" formControlName="title">
+    </div>
+    <br>
+    <button type="button" class="btn" type="submit">Register</button>
+    <br>
+</form>
+<div>
+<h3>Registeration List</h3>
+<!-- <ul>
+    <li>Aly</li>
+    <li>Hana</li>
+    <li>Bondos</li>
+</ul> -->
+
+</div>
+</div>

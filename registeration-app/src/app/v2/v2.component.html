@@ -1,0 +1,35 @@
+<div>
+<form [formGroup]="registerationForm" (ngSubmit)="onSubmit(registerationForm.value)">
+    <div>
+        <label for="firstname"> First Name </label>
+        <input id="fname" type="text" formControlName="firstname">
+    </div>
+    <div>
+        <label for="lastname"> Last Name </label>
+        <input id="lname" type="text" formControlName="lastname">
+    </div>
+    <div>
+        <label for="title"> Title </label>
+        <input id="title" type="text" formControlName="title">
+    </div>
+
+    <div>
+        <label for="email"> Email </label>
+        <input id="email" type="text" formControlName="email">
+    </div>
+    <div>
+        <label for="company"> Company </label>
+        <input id="company" type="text" formControlName="company">
+    </div>
+    <button type="button" class="btn" type="submit">Register</button>
+</form>
+<div>
+    <h3>Registeration List</h3>
+    <!-- <ul>
+        <li>Aly</li>
+        <li>Hana</li>
+        <li>Bondos</li>
+    </ul> -->
+    
+    </div>
+    </div>
